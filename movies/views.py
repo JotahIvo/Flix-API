@@ -1,4 +1,4 @@
-from django.db.models import Count, Avg, Aggregate
+from django.db.models import Count, Avg
 from rest_framework import generics, views, response, status
 from rest_framework.permissions import IsAuthenticated
 from movies.models import Movie

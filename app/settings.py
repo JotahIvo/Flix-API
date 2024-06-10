@@ -37,11 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
-    
+    'django.contrib.staticfiles',    
     'rest_framework',
     'rest_framework_simplejwt',
-
     'genres',
     'actors',
     'movies',
@@ -132,7 +130,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-APPEND_SLASH=False
+APPEND_SLASH = False
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
